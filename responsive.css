@@ -33,6 +33,15 @@
         font-size: 20px;
         top: 75px;
     }
+
+    .copy-container marquee {
+        font-size: 60px;
+      }
+      
+      .picture-icon img {
+        width: 350px;
+        height: 200px;
+      }
 }
 
 /* Untuk Smartphone */
@@ -73,7 +82,7 @@
 
     /* main */
     .copy-container h1 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .lesson-icon h1 {
@@ -86,15 +95,28 @@
         top: 50px;
     }
 
+    .lesson {
+        height: 150px;
+    }
+
     .lesson img {
-        max-height: 65%;
-        max-width: 70%;
+        height: 100%;
+        width: 80%;
     }
 
     .lesson .text-contents {
         font-size: 15px;
         margin-top: 5px;
     }
+
+    .copy-container marquee {
+        font-size: 25px;
+      }
+
+      .picture-icon img {
+        width: 180px;
+        height: 100px;
+      }
 
     /* footer */
     .small-50 {
