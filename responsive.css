@@ -1,23 +1,43 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-    .lesson {
-        width: 50%;
-        margin-bottom: 50px;
-      }
+    /* Header */
     label.logo{
         font-size: 30px;
         padding-left: 50px;
     }
+
     nav ul li a{
         font-size: 16px;
+    }
+
+    /* main */
+    .lesson {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .lesson-icon img {
+        width: 80%;
+    }
+    
+    .copy-container h1 {
+        font-size: 35px;
+    }
+
+    .lesson-icon h1 {
+        font-size: 25px;
+        top: 75px;
+    }
+    
+    .lesson-icon p {
+        font-size: 20px;
+        top: 75px;
     }
 }
 
 /* Untuk Smartphone */
-@media all and (max-width: 670px) {
-    .lesson {
-        width: 100%;
-      }
+@media all and (max-width: 670px) {   
+    /* Header */  
     .checkbtn{
         display: block;
     }
@@ -46,18 +66,48 @@
     #check:checked ~ ul{
         left: 0;
     }
+
+    .jumbotron img{
+        height: 300px;
+      }
+
+    /* main */
+    .copy-container h1 {
+        font-size: 25px;
+    }
+
+    .lesson-icon h1 {
+        font-size: 15px;
+        top: 50px;
+    }
     
+    .lesson-icon p {
+        font-size: 10px;
+        top: 50px;
+    }
+
+    .lesson img {
+        max-height: 65%;
+        max-width: 70%;
+    }
+
+    .lesson .text-contents {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
     /* footer */
     .small-50 {
       width: 50%;  
     }
     .footer-col:nth-child(2) {
       border: none;
+      padding: 25px 25px;
     }
 }
 
-/* footer */
 @media (max-width: 300px) {
+    /* footer */
     .tiny-100 {
       width: 100%;
     }
