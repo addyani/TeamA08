@@ -192,7 +192,8 @@ body {
 
 /* bottom Wrapper */
 .copy-container marquee {
-  padding-bottom: 25px;
+  margin-top: 10px;
+  padding-bottom: 10px;
   font-size: 80px;
   font-family: Georgia;
   color: rgb(255, 255, 255);
@@ -208,6 +209,8 @@ body {
 .picture-icon img {
   width: 550px;
   height: 400px;
+  display: block;
+  margin: 5px auto 5px auto;
 }
 
 /* < Css Bagian Footer >*/
