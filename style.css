@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
 
-*{
+* {
   padding: 0;
   margin: 0;
   text-decoration: none;
@@ -8,44 +8,56 @@
   box-sizing: border-box;
 }
 
-html,body,ul,ol,li,h1,h2,h3,h4,h5,h6,p,div {
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
   margin: 0;
   padding: 0;
-} 
+}
 
 /* < Css Bagian Header > */
-nav{
-  background-color: #001e33;
+nav {
+  background-color: #ba478e;
   color: #62717c;
   height: 80px;
   width: 100%;
 }
 
-label.logo{
-  color: #62717c;
+label.logo {
+  color: #000000;
   font-size: 2.5em;
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
   text-decoration: none;
   font-weight: 700;
-  font-family: 'Tangerine', serif;
-  text-shadow: 2px 2px 2px #aaa;
+  font-family: "Tangerine", serif;
+  text-shadow: 2px 2px 2px #ffffff;
 }
 
-nav ul{
+nav ul {
   float: right;
   margin-right: 20px;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
 }
 
-nav ul li a{
-  color: #62717c;
+nav ul li a {
+  color: #000000;
   text-decoration: none;
   font-weight: 700;
   font-size: 23px;
@@ -57,15 +69,15 @@ nav ul li a{
   border-radius: 10px;
 }
 
-a:hover{
-  background-color: #62717c;
-  color: #001e33;
-  transition: .5s;
+a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.5s;
 }
 
-.checkbtn{
+.checkbtn {
   font-size: 30px;
-  color: #62717c;
+  color: #da8b9f;
   float: right;
   line-height: 80px;
   margin-right: 40px;
@@ -73,11 +85,11 @@ a:hover{
   display: none;
 }
 
-#check{
+#check {
   display: none;
 }
 
-.jumbotron img{
+.jumbotron img {
   top: 0%;
   left: 0;
   width: 100%;
@@ -87,7 +99,7 @@ a:hover{
 
 /* Bagian Body */
 body {
-  background: rgb(17, 15, 143);
+  background: rgb(235, 136, 136);
   margin: 0;
   font-family: "Lucida Grande";
 }
@@ -118,7 +130,7 @@ body {
   padding: 20px 0px;
   font-size: 80px;
   font-family: Georgia;
-  color: rgb(55, 0, 255);
+  color: rgb(152, 43, 107);
 }
 
 .top-wrapper h1 {
@@ -214,91 +226,101 @@ body {
 }
 
 /* < Css Bagian Footer >*/
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-footer img{
-   height: 32px;
-   width: 75px;
- }
+footer img {
+  height: 32px;
+  width: 75px;
+}
 
- footer{
-     background-color: #EBEDEF ;
- }
- 
- footer h2{
-     text-align: center;
-    font-family: Ananda;
-    padding-top: 20px;
-    padding-bottom: 20px;
- }
+footer {
+  background-color: #ebedef;
+}
 
- footer p, a{
-     color: #b3aeb5;
-     font-size: 12px;
-     font-family: Century Gothic;
- }
+footer h2 {
+  text-align: center;
+  font-family: Ananda;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-body,h1,h2,h3,h4 {
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1,h2,h3,h4,p,a {
-    text-decoration: none;
-    color: black;
-    font-family: Century Gothic;
-  }
-  
-  .footer-col a {
-    color: rgba(0,0,0,0.75);
-  }
-  
-  .content {
-    height: 80vh;
-    background: #ccc;
-  }
-  
-  .footer-content-wrapper {
-    width: 80%;
-    margin: 1em auto;  
-  }
-  
-  .footer-col {
-    display: inline-block;
-    padding: 0.5em 0.1em 0.5em 1em;
-    box-sizing: border-box;
-    border-right: solid 1px #bbb;
-  }
-  .footer-col:nth-child(4) {
-    border: none;
-  }
-  
-  .ta-l {
-    text-align: left;
-  }
-  .flt {
-    float: left;
-  }
-  
-  .flt:nth-child(4):after {
-     content: " "; 
-     visibility: hidden; 
-     display: block; 
-     height: 1em; 
-     clear: both;
-  }
-  
-  .large-25 {
-    width: 25%;
-  }
-  
-  .footer-col a {
-    display: block;
-    margin: 0.3em 0;
-  }
+footer p,
+a {
+  color: #b3aeb5;
+  font-size: 12px;
+  font-family: Century Gothic;
+}
+
+body,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Century Gothic;
+}
+
+.footer-col a {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.content {
+  height: 80vh;
+  background: #ccc;
+}
+
+.footer-content-wrapper {
+  width: 80%;
+  margin: 1em auto;
+}
+
+.footer-col {
+  display: inline-block;
+  padding: 0.5em 0.1em 0.5em 1em;
+  box-sizing: border-box;
+  border-right: solid 1px #bbb;
+}
+.footer-col:nth-child(4) {
+  border: none;
+}
+
+.ta-l {
+  text-align: left;
+}
+.flt {
+  float: left;
+}
+
+.flt:nth-child(4):after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 1em;
+  clear: both;
+}
+
+.large-25 {
+  width: 25%;
+}
+
+.footer-col a {
+  display: block;
+  margin: 0.3em 0;
+}
