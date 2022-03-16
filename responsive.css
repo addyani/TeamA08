@@ -118,7 +118,30 @@
         height: 100px;
       }
 
+    /* footer Up */
+    input,textarea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 12px;
+    }
+
+    .main {
+        padding: 30px 30px;
+    }
+
+    .section-title {
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
     /* footer */
+    footer h2 {
+        padding: 10px 0;
+        font-size: 15px;
+    }
     .small-50 {
       width: 50%;  
     }
