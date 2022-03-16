@@ -240,7 +240,7 @@ footer img {
 }
 
 footer {
-  background-color: #ebedef;
+  background-color: #8e5773;
 }
 
 footer h2 {
@@ -323,4 +323,29 @@ a {
 .footer-col a {
   display: block;
   margin: 0.3em 0;
+}
+
+.contact-form {
+  padding: 0px;
+}
+
+input,
+textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #5b1739;
+  color: #ffffff;
+}
+
+.main {
+  padding: 50px 0px 50px 562px;
+  /* position: absolute;
+  margin-top: 100px; */
 }
