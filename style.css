@@ -204,12 +204,17 @@ body {
 }
 
 /* bottom Wrapper */
+.bottom-wrapper {
+  background-image: url("https://drive.google.com/uc?export=view&id=1Kl5LDgePkwZqwuI0vnleROxh32IZIXTt");
+  background-size: cover;
+}
+
 .copy-container marquee {
   margin-top: 10px;
   padding-bottom: 10px;
   font-size: 80px;
   font-family: Georgia;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .picture-icon {
@@ -241,7 +246,7 @@ footer img {
 }
 
 footer {
-  background-image: url("pastel.png");
+  background-image: url("https://drive.google.com/uc?export=view&id=19KAiOr8rJIntYFEQVl_iBR2Wegygqkco");
   background-size: cover;
   background-color: #8e5773;
 }
@@ -249,8 +254,9 @@ footer {
 footer h2 {
   text-align: center;
   font-family: Ananda;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
+  margin: 0 auto;
+  background-color: #f7f7f7;
 }
 
 footer p,
@@ -334,7 +340,7 @@ a {
 
 input,
 textarea {
-  width: 400px;
+  width: 80%;
   margin-top: 10px;
   margin-bottom: 30px;
   padding: 20px;
@@ -345,6 +351,11 @@ textarea {
 .contact-submit {
   background-color: #5b1739;
   color: #ffffff;
+}
+
+.contact-submit:hover {
+  background-color: #b3aeb5;
+  opacity: 0.8;
 }
 
 .main {
